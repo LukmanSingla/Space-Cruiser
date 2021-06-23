@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  overflow: hidden;
+}
+h1 {
+  font-family: "Nosifer", cursive;
+  color: blue;
+  /* font-size: 0px; */
+  font-size: 2.7rem;
+}
+h2 {
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+input {
+  width: 250px;
+  background-color: rgba(69, 69, 224, 0.582);
+  border: none;
+  height: 40px;
+  padding-left: 20px;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  background: blue;
+  color: white;
+  display: flex;
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+button:hover {
+  background-color: aliceblue;
+  color: blue;
+}
+h3 {
+  font-size: 50px;
+  color: white;
+}
+img {
+  mix-blend-mode: lighten;
+}
+input[type="range"] {
+  display: none;
+}

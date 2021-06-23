@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Cruiser</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <!-- <script src="p5.dom.min.js"></script> -->
+    <!-- <script src="p5.js"></script> -->
+    <script src="p5.play.js"></script>
+    <!-- <script src="p5.sound.min.js"></script> -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+    <!-- TODO   : Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDfBvK7pQOA_W2qQLr2coBKXRBs2YmdnDs",
+        authDomain: "space-cruiser-26205.firebaseapp.com",
+        projectId: "space-cruiser-26205",
+        storageBucket: "space-cruiser-26205.appspot.com",
+        messagingSenderId: "65297334671",
+        appId: "1:65297334671:web:ce3995bc8e377d97748bfa",
+      };
+      //   Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <input
+      type="range"
+      name=""
+      id="a"
+      style="position: absolute"
+      min="0"
+      max="360"
+    />
+    <script src="form.js"></script>
+    <script src="game.js"></script>
+    <script src="player.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
